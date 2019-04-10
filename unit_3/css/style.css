@@ -1,0 +1,114 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+    padding: 0px;
+    color: #ffffff;
+    background-color: #111111  
+}
+
+
+h1 {
+	font-size: 50px;
+	font-weight: 200;
+}
+
+h3 {
+	font-size: 24px;
+	font-weight: 300;
+}
+
+p {
+	font-size: 16px
+	font-weight: 300;
+}
+
+ul {
+	font-size: 18px
+	font-weight: normal;
+}
+
+li {
+	font-size: 16px
+	font-weight: bold;
+}
+
+img {
+	max-width: 100%;
+  	height: auto;
+  	padding: 0px
+}
+
+/* Container holding the image and the text */
+.container {
+  position: relative;
+}
+
+/* Bottom right text */
+.text-block {
+  position: absolute;
+  top: 200px;
+  right: 100px;
+  color: white;
+  text-shadow: 1px 1px 2px #111111;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.button {
+  background-color: transparent;
+  border: #ffffff;
+  color: white;
+  padding: 15px 25px;
+  border-radius: 12px;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+
+}
+
+ .nav {
+  color: #ffffff;
+  position: absolute;
+  bottom: 100px;
+  left: 125px;
+}
+
+.badge {
+  position: absolute;
+  max-width: 75px;
+  top: 25px;
+  left: 25px;
+}
+
+.record {
+  position: absolute;
+  max-width: 400px;
+  bottom: 250px;
+  left: 100px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.byelisten {
+  background-color: transparent;
+  border-color: #ffffff;
+  position: absolute;
+  top: 350px;
+  right: 425px;
+  color: white;
+  padding: 15px 25px;
+  border-radius: 12px;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.Instagram {
+  max-width: 200px
+}
+

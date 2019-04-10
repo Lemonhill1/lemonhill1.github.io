@@ -1,5 +1,31 @@
 body {
+	text-align: center;
 	color: white;
-	background-color: #cccccc;
+	background-color: #000000;
 	font-family: Arial, sans-serif;
 }
+
+h1 {
+	font-family: Arial, sans-serif;
+	font-size: 30px;
+	font-weight: normal;
+	text-decoration: underline;
+}
+
+h2 {
+	font-size: 24px;
+	font-weight: normal;
+
+}
+
+h3 {font-size: 18px;
+	font-weight: 300;}
+
+#second {
+	font-weight:bold;
+}	
+
+.important {
+	font-size: 18px
+}
+

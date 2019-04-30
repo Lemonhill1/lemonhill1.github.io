@@ -10,33 +10,56 @@
 body {
  font-size: 16px;
  color: #ffffff;
- background-color: #111111;  
- text-align: center;
+ background-color: #111;  
+ text-align: left;
 
 }
 
 header {
-  background-color: #E8C66A;
-  border: 1px black solid;
+  background-color: #111;
   padding: 20px;
 }
 
 nav {
-
   margin: auto;
 }
 
+/*LoVe HAte*/
+
+nav a:link{
+  font-family: 'Allerta', sans-serif;
+  color:#fff;
+  margin:0 10px;
+  padding-bottom:2px;
+  font-size: .8em;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+nav a:visited{
+  color: #fff;
+}
+
+nav a:hover{
+  color: #ce1126;
+  border-color: #E8C66A;
+}
+
+nav a:active{
+  color:#fff;
+}
+
 article {
-  background-color: #ffffff;
+  background-color: #fff;
   padding: 40px 80px;
   text-align: left;
   color: #111111;
 }
 
 section {
-  background-color: #FFE2B8;
-  border: 1px black solid;
-  padding: 20px;
+  background-color: #111;
+  padding: 2em 0em 0em 3em;
 
 }
 
@@ -117,9 +140,8 @@ blockquote {
   font-style: 'Slabo 27px', sans-serif;
   font-size: 1em;
   font-weight: 100;
-  width:30em;
-  margin:2em auto;
   line-height: 1.5;
+  padding: 2em 0em 0em 3em;
 }
 
 a {
@@ -130,17 +152,23 @@ a {
 }
 
 hr{
-  border:none;
+  border: none;
   height:1px;
   background-color: #111;
   width:10em;
-  margin:1em auto;
 }
 
 aside {
-  background-color: #FFC675;
-  border: 1px black solid;
-  padding: 20px;
+  background-color: #111;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
 }
 
 .hero {
@@ -151,12 +179,12 @@ aside {
 
 
 .hero-header {
-  background-color: #E8C66A;
+  background-color: #111;
   position: absolute;
   top: 300px;
   right: 450px;
   color: white;
-  text-shadow: 1px 1px 2px #111111;
+  text-shadow: 1px 1px 2px #111;
   padding-left: 20px;
   padding-right: 20px;
 }
@@ -194,10 +222,9 @@ aside {
 }
 
 .shows {
-  background-color: #E89C6C;
+  background-color: #fff;
   color: #111;
   width:100%;
-  border: 2em;
 }
 
 .news {
@@ -222,10 +249,31 @@ aside {
 }
 
 .footer {
-  background-color: #FF957E;
+  background-color: #333;
 
 }
 
 .welcome{
-  background-color: #FFE2B8;
+  background-color: #fff;
+  color: #111;
+}
+
+#two_column {
+    background-color: #111;
+    padding: 2em auto;
+}
+
+#left {
+    background-color: #111;
+    padding: 30px;
+    float: left;
+    width: 50%;
+    color: #fff;
+}
+
+#right {
+    background-color: #111;
+    padding: 15px 40px 0 0;
+    float: right;   
+    width: 30%;
 }

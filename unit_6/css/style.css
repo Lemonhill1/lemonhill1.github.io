@@ -10,14 +10,13 @@
 body {
  font-size: 16px;
  color: #ffffff;
- background-color: #111111;  
- text-align: center;
+ background-color: #111;  
+ text-align: left;
 
 }
 
 header {
   background-color: #111;
-  border: 1px black solid;
   padding: 20px;
 }
 
@@ -52,7 +51,7 @@ nav a:active{
 }
 
 article {
-  background-color: #ffffff;
+  background-color: #fff;
   padding: 40px 80px;
   text-align: left;
   color: #111111;
@@ -60,7 +59,7 @@ article {
 
 section {
   background-color: #111;
-  padding: 20px;
+  padding: 2em 0em 0em 3em;
 
 }
 
@@ -100,8 +99,8 @@ h3{
 
 p {
   font-style: 'Slabo 27px', sans-serif;
-  font-size: 1em;
-  font-weight: 100;
+	font-size: 1em;
+	font-weight: 100;
   width: 30em;
   margin:1em auto;
   line-height: 1.5;
@@ -119,13 +118,13 @@ button {
 
 ul {
   font-family: 'Crimson Text', serif;
-  font-weight: normal;
+	font-weight: normal;
 }
 
 li {
   line-height: 1.25em;
   list-style-type: none;
-  font-weight: normal;
+	font-weight: normal;
   margin-bottom:25px;
   /*border-bottom: 1px solid grey;*/
   
@@ -141,9 +140,8 @@ blockquote {
   font-style: 'Slabo 27px', sans-serif;
   font-size: 1em;
   font-weight: 100;
-  width:30em;
-  margin:2em auto;
   line-height: 1.5;
+  padding: 2em 0em 0em 3em;
 }
 
 a {
@@ -154,33 +152,25 @@ a {
 }
 
 hr{
-  border:none;
+  border: none;
   height:1px;
   background-color: #111;
   width:10em;
-  margin:1em auto;
 }
 
 aside {
   background-color: #111;
-  padding: 20px;
 }
 
-.clearfix:after{
-  visibility: hidden;
-  height: 0;
-  font-size: 0;
-  content:"hello";
-  display: block;
-  clear:both;
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
 }
-.nextshow {
-  line-height: 1.25em;
-  list-style-type: none;
-  font-weight: normal;
-  margin-bottom:25px;
-	
-}
+
 .hero {
   background-size: cover;
   border: 1px black solid;
@@ -194,9 +184,22 @@ aside {
   top: 300px;
   right: 450px;
   color: white;
-  text-shadow: 1px 1px 2px #111111;
+  text-shadow: 1px 1px 2px #111;
   padding-left: 20px;
   padding-right: 20px;
+}
+
+ .navlinks {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 1em;
+  font-weight: 300;
+  letter-spacing: 2px;
+  text-align: auto;
+  text-decoration: none;
+  border-bottom: 0px;
+  padding:10px;
+  margin: 0 10px;
 }
 
 .badge {
@@ -221,8 +224,7 @@ aside {
 .shows {
   background-color: #fff;
   color: #111;
-  float: left;
-  margin:1px;
+  width:100%;
 }
 
 .news {
@@ -247,10 +249,31 @@ aside {
 }
 
 .footer {
-  background-color: #111;
+  background-color: #333;
 
 }
 
 .welcome{
-	background-color: #111;
+  background-color: #fff;
+  color: #111;
+}
+
+#two_column {
+    background-color: #111;
+    padding: 2em auto;
+}
+
+#left {
+    background-color: #111;
+    padding: 30px;
+    float: left;
+    width: 50%;
+    color: #fff;
+}
+
+#right {
+    background-color: #111;
+    padding: 15px 40px 0 0;
+    float: right;   
+    width: 30%;
 }

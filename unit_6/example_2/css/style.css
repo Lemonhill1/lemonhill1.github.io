@@ -1,0 +1,372 @@
+@import url(https://fonts.googleapis.com/css?family=Racing+Sans+One);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300);
+@import url(https://fonts.googleapis.com/css?family=Crimson+Text);
+@import url(https://fonts.googleapis.com/css?family=Slabo+27px);
+
+
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+
+body{
+	background-color: #EAEAEA;
+	font-size: 16px;
+	position: relative;
+}
+
+header{
+	padding:0 auto;
+}
+
+nav{
+	margin:auto;
+	text-align: center;
+}
+
+nav a:link{
+	font-family: 'Allerta', sans-serif;
+	color:#111;
+	padding:0 32px;
+	font-size: .8em;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	-webkit-transition:color ease-in-out .5s;
+	-moz-transition:color ease-in-out .5s;
+	-o-transition:color ease-in-out .5s;
+	transition:color ease-in-out .5s;
+}
+
+nav a:visited{
+	color: #fff;
+}
+
+nav a:hover{
+	color: #9E0819;
+}
+
+nav a:active{
+	color: #9E0819;
+}
+
+main{
+	background-color: #EAEAEA;
+	color:#111;
+	padding:10px 0;
+}
+
+section{
+	padding:25px 0;
+}
+
+aside {
+	background-color: #EAEAEA;
+	width: 100%;
+	
+}
+
+footer{
+	background-color: #111;
+	color:#FFF;
+}
+
+h1{
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-weight: normal;
+	font-size:80px;
+	text-align:center;
+	color:#fff;
+	text-shadow: 1px 1px 2px black, 0 0 1em #fff, 0 0 0.2em #555;
+	margin:200px auto;
+	text-transform: uppercase;
+}
+
+h2,
+h3,
+h4{
+	font-family: 'Open Sans Condensed', sans-serif;
+	text-align: center;
+}
+
+h2{
+	font-size:.8em;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	margin:0 0 2.5em;
+}
+
+h2 + hr{
+	background-color: #fff;
+	height:1px;
+}
+
+h3{
+	font-weight: 100;
+	font-size:2em;
+	margin:.5em 0 0 0;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+}
+
+h3 + hr{
+	background-color: #A4A4A4;
+	height:1px;
+}
+
+h4{
+	font-size:1.5em;
+	text-align:center;
+}
+
+p{
+	font-family: 'Crimson Text', serif;
+	font-size:1em;
+	line-height: 1.6em;
+	margin-bottom: .8em;
+	margin-top: 1em;
+}
+
+blockquote{
+	font-family: 'Crimson Text', serif;
+	font-size:1em;
+	line-height: 1.6em;
+	margin-bottom: .8em;
+	margin-top: 1em;
+}
+
+
+ul {
+  font-family: 'Crimson Text', serif;
+  font-weight: normal;
+  margin-bottom: 1em;
+  margin-top: 1em;
+}
+
+li {
+  text-align: center;
+  list-style-type: none;
+  font-weight: normal;
+	line-height: 1.3em;
+  /*border-bottom: 1px solid grey;*/
+  
+}
+
+a{
+	text-decoration:none;
+
+}
+
+img{
+	width:100%;
+}
+
+hr{
+	border:none;
+	width:100%;
+	margin: 5px auto;	
+}
+
+label{
+	font-family: 'Allerta', sans-serif;
+	color:#fff;
+	padding:0 32px;
+	font-size: .8em;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	display: none;
+}
+
+.clearfix:after{
+	height:0;
+	font-size:0;
+	visibility:hidden;
+	display:block;
+	content:" ";
+	clear:both;
+}
+
+
+.welcome {
+	width:50%;
+	margin: auto;
+	text-align: left;
+}
+
+.aside {
+	background-color: #EAEAEA;
+	width:70%;
+	margin: auto;
+	text-align: center;
+}
+
+.shows{
+	width:46%;
+	padding:1%;
+	margin:1%;
+	float:left;
+}
+
+.planet{
+	width:25%;
+	padding:.5em .5em;
+	float: left;
+	margin-top: 1em;
+	/*background-color: orange;*/
+}
+
+/*.planet:nth-of-type(1){
+	padding:7.5em 0 0;
+}
+
+.planet:nth-of-type(3){
+	padding:6em 0 0;
+}
+*/
+
+.planet:hover > h3{
+	opacity: 1;
+}
+
+.planet h3{
+	color:red;
+	margin:0 0 1em;
+	position: absolute;
+	top:220px;
+	/*left:30px;*/
+	left:50%;
+	-webkit-transform:translateX(-50%);
+	-moz-transform:translateX(-50%);
+	-o-transform:translateX(-50%);
+	transform:translateX(-50%);
+	/*display: none;*/
+	-webkit-transition:opacity ease-in-out .5s;
+	-moz-transition:opacity ease-in-out .5s;
+	-o-transition:opacity ease-in-out .5s;
+	transition:opacity ease-in-out .5s;
+	/*transition:opacity ease-in-out .75s;*/
+	opacity: 0;
+
+}
+
+.footer {
+	text-align: center;
+	background-color: #111;
+}
+
+.whiteline {
+  border:none;
+  height:1px;
+  background-color: #fff;
+}
+
+#lander{
+	background:url(../assets/hero.jpg) no-repeat center center scroll;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	height:750px;
+	padding:20px 0;
+}
+
+#show-wrap{
+	width:90%;
+	margin:auto;
+}
+
+#planets{
+	background:url(../assets/IMG_9476.png) no-repeat center center scroll;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	height:750px;
+	background-color:#000;
+	color:#F1E9E4;
+	padding:5em 10% 7em;
+}
+
+#toggle{
+	display: none;
+}
+
+#two_column {
+    background-color: #111;
+    padding: 2em auto;
+}
+
+#left {
+    background-color: #111;
+    padding: 30px;
+    float: left;
+    width: 50%;
+    color: #fff;
+}
+
+#right {
+    background-color: #111;
+    padding: 15px 40px 0 0;
+    float: right;   
+    width: 30%;
+}
+
+
+
+@media screen and (max-width:1645px){
+	.neils{
+		width:48%;
+		height: 451px;
+	}
+}
+
+@media screen and (max-width:1220px){
+	header{
+		padding:0 10%;
+	}
+
+	.neils{
+		height: 560px;
+	}
+
+
+}
+
+@media screen and (max-width:1000px){
+	.neils{
+		width:100%;
+		float:none;
+		height: auto;
+	}
+}
+
+@media screen and (max-width:750px){
+	nav{
+		display: none;
+	}
+
+	nav a:link{
+		display: block;
+		padding:15px;
+		margin:5px;
+	}
+
+	h1{
+		margin:40px 0 0;
+	}
+
+	header{
+		padding:0 2%;
+	}
+
+	label{
+		display: block;
+	}
+
+	#toggle:checked + nav{
+		display: block;
+	}
+
+}

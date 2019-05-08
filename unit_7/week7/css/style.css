@@ -1,0 +1,52 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300);
+@import url(https://fonts.googleapis.com/css?family=Crimson+Text);
+@import url(https://fonts.googleapis.com/css?family=Slabo+27px);
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+	background-color: #111;
+}
+
+header{
+	padding:0 auto;
+}
+
+nav{
+	margin:auto;
+	text-align: center;
+}
+
+nav a:link{
+	font-family: 'Allerta', sans-serif;
+	color:#111;
+	padding:0 32px;
+	font-size: .8em;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	-webkit-transition:color ease-in-out .5s;
+	-moz-transition:color ease-in-out .5s;
+	-o-transition:color ease-in-out .5s;
+	transition:color ease-in-out .5s;
+}
+
+nav a:visited{
+	color: #fff;
+}
+
+nav a:hover{
+	color: #9E0819;
+}
+
+nav a:active{
+	color: #9E0819;
+}
+
+
+section{
+	padding:25px 0;
+}

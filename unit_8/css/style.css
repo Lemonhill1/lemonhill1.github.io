@@ -1,0 +1,293 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300);
+@import url(https://fonts.googleapis.com/css?family=Crimson+Text);
+@import url(https://fonts.googleapis.com/css?family=Slabo+27px);
+
+* {
+ 	padding: 0;
+ 	margin: 0;
+	box-sizing:border-box;
+}
+
+header {
+	background-color: #111;
+}
+
+body {
+	font-size: 16px;
+	line-height: 1.5;
+}
+
+section {
+	font-family: Slabo+27px;
+	margin: auto;
+	width:100%;
+	
+}
+
+blockquote {
+	margin: 25px 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: 300;
+	font-family: 'Open+Sans+Condensed:300', sans-serif;
+}
+
+h1 {
+	font-size: 4em;
+	padding: 25px;
+	line-height: 1em;
+	text-shadow: 1px 1px 2px #111;
+}
+
+h2{
+	font-size:2em;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	text-shadow: 1px 1px 2px #111;
+	padding: 0 2em;
+}
+
+h3{
+	font-family: 'Open+Sans+Condensed:300', sans-serif;
+	font-weight: 100;
+	font-size:1.75em;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	text-align: center;
+}
+
+h4 {
+	padding-top: 10px;
+	font-size: 22px;
+}
+
+p {
+	font-family: Slabo+27px;
+	line-height: 1.5em;
+	padding-bottom: 5px;
+	
+}
+
+nav {
+	text-align: center;
+}
+
+img {
+	max-width: 18em;
+	padding: 5px;
+	box-shadow: 10px 10px 30px #999;
+}
+
+nav a:link{
+	font-family: 'Allerta', sans-serif;
+	color:#FFFFFF;
+	padding:0 32px;
+	font-size: .8em;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 1.5px;
+	-webkit-transition:color ease-in-out .5s;
+	-moz-transition:color ease-in-out .5s;
+	-o-transition:color ease-in-out .5s;
+	transition:color ease-in-out .5s;
+}
+
+nav a:hover{
+	color: #A9A9A9;
+}
+
+nav a:active{
+	color: #A9A9A9;
+}
+
+a {
+	color: #fff;
+}
+
+hr{
+	width:99%;
+	margin: 0px 0px 15px 0px;	
+	text-align: center;
+}
+
+wrapper {
+	background-color: #fff;
+	width: 100%;
+	padding: 10px 40px;
+	margin: 0 auto;
+	float: left;
+}
+
+footer {
+	font-family: 'Allerta', sans-serif;
+	width: 100%;
+	font-size: .75em;
+	text-align: center;
+	background-color: #3F3F3F;
+	color: #FFFFFF;
+	padding: 50px;
+	float:left;
+	
+}
+
+.buylink {
+	font-family: 'Allerta', sans-serif;
+	color:#CE1126;
+	padding:0 32px;
+	font-size: .8em;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 1.5px;
+
+}
+
+.herotext {
+	text-align: center;
+	color: #fff;
+	padding: 200px 50px 0 50px;
+	
+}
+
+.herotext > .button {
+	text-align: center;
+	background-color: Transparent;
+	border: 1px solid #fff;
+	color: #fff;	
+	-webkit-transition:color ease-in-out .5s;
+	-moz-transition:color ease-in-out .5s;
+	-o-transition:color ease-in-out .5s;
+	transition:color ease-in-out .5s;
+}
+
+
+.button {
+  font-family: 'Open+Sans+Condensed:300', sans-serif;
+  background-color: #111;
+  border: none;
+  color: fff;
+  padding: 15px 80px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 15px 0px;
+  cursor: pointer;
+  text-transform: uppercase;
+  border-radius: 5px;
+	
+}
+
+.welcome-iframe {
+	width:70%;
+	text-align: center;
+	margin-bottom: 45px;
+}
+
+.imagebuy {
+	max-width: 200px;
+	box-shadow: 10px 10px 30px #999;
+}
+
+.clearfix:after{
+	height:0;
+	font-size:0;
+	visibility:hidden;
+	display:block;
+	content:" ";
+	clear:both;
+}
+
+.iframe {
+	align-content: center;
+	text-align: center;
+}
+
+.welcome {
+	width:100%;
+	text-align: left;
+	margin-top: 25px 0;
+	max-width: 800px;
+}
+
+.welcome-button {
+	width:100%;
+	text-align: center;
+	padding-top: 55px 0;
+}
+
+.buy {
+	width:100%;
+	text-align: center;
+	margin: 15px auto;
+	max-width: 800px;
+}
+
+.buy .column {
+	padding: 0 20px;
+	width:33%;
+
+}
+
+.stuff{
+	width:100%;
+	padding: 5px;
+	max-width: 800px;
+	float: left;
+}
+
+
+.welcome-two {
+	width:100%;
+	text-align: left;
+	margin-top: 25px 0;
+	max-width: 800px;
+}
+
+.shows {
+	text-align: center;
+	width:46%;
+	float:left;
+	max-width: 80%;
+}
+
+.show-list{
+	padding-bottom: 0px;
+	max-width: 80%;
+}
+
+.hero {
+	background-image: url(../images/hero3.png);
+	background-position:center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	max-width: 100%;
+	height: 800px;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 20px 20px;
+  margin: 30px 0px;
+  text-align: center;
+	
+}
+.line {
+	align-content: center;
+	text-align: center;
+}
+
+#show-wrap {
+	width:100%;
+	/*max-width: 80%; */
+	background-color: #111;
+}
+
+@media screen and (max-width: 815px){
+	.column, .wrapper, .buy .column {
+		width: 100%;
+		}
+	}
+
+
